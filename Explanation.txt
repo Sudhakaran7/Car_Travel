@@ -1,0 +1,29 @@
+Ajith kumar is a car driver, everytime he used go for ride he can pick only a limit of persons which is given, and the count of people given in the array.
+He can let only the limit of people in his car, find how many times he have to complete the ride of the people by travelling with the limited seats.
+
+input description:
+weight of the people in a array, in next line seat limit
+
+Sample input:
+1 2 3
+3
+
+Sample output:
+2
+
+Explanation:
+the limit is 3, so first two elements in the weight of people array 1+2=3 which is the first ride,
+and then the third person has weight 3 so he have to go for the second ride.
+so tota number of rides is 2
+
+Sample input:
+5 3 6 2 1
+4
+
+Sample output:
+4
+
+Explanation:
+The limit is 4, so the least two elements below the limit is 2,1 so 2+1=3, that is the first ride.
+then array will be [5,3,6] each weights cannot be summed because it will go beyond the limit, so each weight ajith have
+to ride seperately, so the ouput is 4
